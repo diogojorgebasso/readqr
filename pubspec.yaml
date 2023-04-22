@@ -15,6 +15,7 @@ dependencies:
   plausible_analytics: ^0.3.0
   appwrite: ^9.0.0
   shared_preferences: ^2.1.0
+  mobile_scanner: ^3.2.0
 
 dev_dependencies:
   flutter_test:
