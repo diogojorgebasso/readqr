@@ -1,13 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:plausible_analytics/plausible_analytics.dart';
 import 'package:appwrite/appwrite.dart';
 
-String analyticsUrl = "https://youranalyticsurl.com";
-const String analyticsName = "yourappname"; // this is actually the site name
+Client client = Client();
 
 void main() {
-  Plausible plausible = Plausible(analyticsUrl, analyticsName);
-  plausible.event(name: "main_page");
   runApp(const MyApp());
 }
 
