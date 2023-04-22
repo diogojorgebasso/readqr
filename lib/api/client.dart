@@ -5,8 +5,9 @@ class ApiClient {
     Client client = Client();
 
     client
-        .setEndpoint('https://demo.appwrite.io/v1')
-        .setProject('almostNetflix2')
+        .setEndpoint(
+            'https://8080-appwrite-integrationfor-tdt5rmrat65.ws-us95.gitpod.io/v1')
+        .setProject('644343c121e85f9ae324')
         .setSelfSigned();
 
     return client;
